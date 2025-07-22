@@ -1,1 +1,294 @@
-# 📧 EmailMaster CLI<div align="center"><img src="assets/screenshots/banner.png" alt="EmailMaster CLI Banner" width="100%"/>![EmailMaster CLI](https://img.shields.io/badge/EmailMaster-CLI-blueviolet?style=for-the-badge&logo=gmail)![Version](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)![AI Powered](https://img.shields.io/badge/AI-Powered-orange?style=for-the-badge&logo=openai)![Node.js](https://img.shields.io/badge/Node.js-16+-green?style=for-the-badge&logo=node.js)![Gmail API](https://img.shields.io/badge/Gmail-API-red?style=for-the-badge&logo=gmail)**🤖 AI-Powered Gmail Management Tool**_Transform your inbox into an intelligent, organized workspace with cutting-edge AI technology_[✨ Features](#-features) • [📸 Screenshots](#-screenshots) • [🎥 Videos](#-videos) • [🚀 Quick Start](#-quick-start) • [📄 License](LICENSE.md) • [⭐ Star this repo](#)---</div>## 🎯 Project OverviewEmailMaster CLI is a next-generation command-line interface that revolutionizes Gmail management through AI integration. Built with modern Node.js technologies and powered by Google's Gemini AI, it transforms the traditional email workflow into an intelligent, automated experience.**Why EmailMaster CLI?**- 🧠 **AI-First Design**: Every feature is enhanced with intelligent automation- ⚡ **Lightning Fast**: Batch processing and smart caching for optimal performance- 🎨 **Beautiful Interface**: Instagram-inspired gradient designs with modern styling- 🔧 **Developer Friendly**: Comprehensive CLI with intuitive commands- 🚀 **Productivity Focused**: Achieve Inbox Zero with intelligent email categorization- 📎 **Attachment Management**: Advanced file organization and bulk operations## ✨ Features<table><tr><td width="50%">### 📥 **Smart Email Management**- **Intelligent Fetching** with customizable limits- **AI-Powered Analysis** for priority classification- **Batch Processing** for optimal performance- **Multi-Account Support** with seamless switching- **Advanced Email References** with persistent identifiers### 🧠 **AI-Powered Intelligence**- **Content Analysis** with sentiment detection- **Priority Classification** (Urgent/Important/Normal)- **Suggested Responses** with contextual AI- **Natural Language Search** with semantic understanding- **Smart Summarization** with key point extraction- **Automated Response Generation**</td><td width="50%">### 🎯 **Productivity Tools**- **Inbox Zero Automation** with smart sweeping- **Calendar Event Extraction** from email content- **Unsubscribe Management** with bulk operations- **Advanced Search** with natural language queries### 📎 **Attachment Vault**- **Smart Download** with type and size filtering- **Automatic Organization** by date and file type- **Incremental Sync** for new attachments only- **Statistics Dashboard** with file analytics### 🎨 **Modern Interface**- **Instagram-inspired** gradient color schemes- **Beautiful Tables** with modern styling- **Progress Indicators** with real-time feedback- **Responsive Design** for all terminal sizes</td></tr></table>## 📸 Screenshots<div align="center">### 🎨 Beautiful CLI Interface<table><tr><td width="50%" align="center"><img src="assets/screenshots/image1.png" alt="Screenshot 1" width="400"/></td><td width="50%" align="center"><img src="assets/screenshots/image2.png" alt="Screenshot 2" width="400"/></td></tr><tr><td align="center"><img src="assets/screenshots/image3.png" alt="Screenshot 3" width="400"/></td><td align="center"><img src="assets/screenshots/image4.png" alt="Screenshot 4" width="400"/></td></tr><tr><td align="center"><img src="assets/screenshots/image5.png" alt="Screenshot 5" width="400"/></td><td align="center"><img src="assets/screenshots/image6.png" alt="Screenshot 6" width="400"/></td></tr></table>### 🚀 Advanced Features<table><tr><td width="50%" align="center"><img src="assets/screenshots/image7.png" alt="Screenshot 7" width="400"/></td><td width="50%" align="center"><img src="assets/screenshots/image8.png" alt="Screenshot 8" width="400"/></td></tr><tr><td align="center"><img src="assets/screenshots/image9.png" alt="Screenshot 9" width="400"/></td><td align="center"><img src="assets/screenshots/image10.png" alt="Screenshot 10" width="400"/></td></tr><tr><td align="center"><img src="assets/screenshots/image11.png" alt="Screenshot 11" width="400"/></td><td align="center"><img src="assets/screenshots/image12.png" alt="Screenshot 12" width="400"/></td></tr></table></div>## 🎥 Videos<div align="center">### 🎬 Feature Demonstrations<table><tr><td width="33%" align="center"><img src="assets/screenshots/image13.png" alt="Video 1" width="250"/></td><td width="33%" align="center"><img src="assets/screenshots/image14.png" alt="Video 2" width="250"/></td><td width="33%" align="center"><img src="assets/screenshots/image15.png" alt="Video 3" width="250"/></td></tr><tr><td align="center"><img src="assets/screenshots/image16.png" alt="Video 4" width="250"/></td><td align="center"><img src="assets/screenshots/image17.png" alt="Video 5" width="250"/></td><td align="center"><img src="assets/screenshots/image18.png" alt="Video 6" width="250"/></td></tr></table>### 🛠️ Advanced Tutorials<table><tr><td width="33%" align="center">_Coming Soon_</td><td width="33%" align="center">_Coming Soon_</td><td width="33%" align="center">_Coming Soon_</td></tr><tr><td align="center">_Coming Soon_</td><td align="center">_Coming Soon_</td><td align="center">_Coming Soon_</td></tr></table></div>## 📋 Command Reference<table><thead><tr><th width="30%">Command</th><th width="40%">Description</th><th width="30%">Common Options</th></tr></thead><tbody><tr><td colspan="3"><strong>🔐 Authentication & Account Management</strong></td></tr><tr><td><code>emailmaster accounts</code></td><td>List all configured accounts</td><td></td></tr><tr><td><code>emailmaster account-add</code></td><td>Add Gmail account with OAuth2 authentication</td><td><code>--name &lt;account&gt;</code></td></tr><tr><td><code>emailmaster account-remove</code></td><td>Remove a configured account</td><td><code>&lt;name&gt;</code></td></tr><tr><td><code>emailmaster account-switch</code></td><td>Switch between configured accounts</td><td><code>&lt;name&gt;</code></td></tr><tr><td colspan="3"><strong>📧 Core Email Operations</strong></td></tr><tr><td><code>emailmaster fetch</code></td><td>Retrieve emails from Gmail with smart caching</td><td><code>-m, --max &lt;number&gt;</code></td></tr><tr><td><code>emailmaster list</code></td><td>Show all emails with indices</td><td><code>--limit &lt;number&gt;</code></td></tr><tr><td><code>emailmaster view [identifier]</code></td><td>Display email by number</td><td><code>--id &lt;uniqueId&gt;</code></td></tr><tr><td><code>emailmaster analyze</code></td><td>AI-powered email analysis and classification</td><td><code>-n, --notify</code></td></tr><tr><td><code>emailmaster dashboard</code></td><td>Interactive inbox overview with insights</td><td></td></tr><tr><td><code>emailmaster search &lt;query&gt;</code></td><td>Search emails by query</td><td></td></tr><tr><td colspan="3"><strong>📤 Export & Productivity</strong></td></tr><tr><td><code>emailmaster export</code></td><td>Export emails to JSON/Markdown</td><td><code>--format &lt;format&gt;</code></td></tr><tr><td><code>emailmaster calendar-export</code></td><td>Extract calendar events to ICS format</td><td><code>--email &lt;number&gt;<br>--file &lt;path&gt;<br>--all</code></td></tr><tr><td><code>emailmaster reply &lt;email-number&gt;</code></td><td>AI-powered email replies</td><td><code>-a, --ai<br>-s, --send<br>-m, --manual<br>-d, --draft<br>--message &lt;message&gt;</code></td></tr><tr><td><code>emailmaster summary</code></td><td>Generate daily email summary report</td><td></td></tr><tr><td colspan="3"><strong>📎 Attachment Management</strong></td></tr><tr><td><code>emailmaster attachments</code></td><td>View attachment commands</td><td></td></tr><tr><td><code>emailmaster attachments-fetch</code></td><td>Download all attachments</td><td><code>--days &lt;number&gt;, --output &lt;path&gt;, --types &lt;types&gt;, --max-size &lt;size&gt;, --no-organize-date, --no-organize-type</code></td></tr><tr><td><code>emailmaster attachments-sync</code></td><td>Sync new attachments incrementally</td><td><code>-o, --output &lt;path&gt;<br>--types &lt;types&gt;<br>--max-size &lt;size&gt;</code></td></tr><tr><td><code>emailmaster attachments-stats</code></td><td>View attachment statistics</td><td><code>-o, --output &lt;path&gt;</code></td></tr><tr><td colspan="3"><strong>🔧 Advanced Features</strong></td></tr><tr><td><code>emailmaster sweep</code></td><td>Bulk email management</td><td><code>--type &lt;type&gt;, --older-than &lt;days&gt;, --auto-archive, --dry-run</code></td></tr><tr><td><code>emailmaster unsubscribe</code></td><td>Smart unsubscribe assistant</td><td><code>--list, --send &lt;number&gt;, --all</code></td></tr><tr><td><code>emailmaster config</code></td><td>Configure EmailMaster settings</td><td><code>--batch-size &lt;number&gt;<br>--model &lt;model&gt;<br>--temp-dir &lt;path&gt;<br>--show<br>--list-models</code></td></tr><tr><td><code>emailmaster help [command]</code></td><td>Display help information</td><td></td></tr></tbody></table>#### Global Options- `--help, -h` - Show command help- `--version, -v` - Display version- `--verbose` - Detailed output- `--no-color` - Disable colored output## 🚀 Quick Start### Prerequisites<table><tr><td width="20%"><strong>Node.js</strong></td><td width="30%">v16.0.0 or higher</td><td width="50%"><a href="https://nodejs.org/">Download from nodejs.org</a></td></tr><tr><td><strong>Gmail API</strong></td><td>OAuth2 Credentials</td><td><a href="https://console.cloud.google.com/">Google Cloud Console</a></td></tr><tr><td><strong>Gemini AI</strong></td><td>API Key</td><td><a href="https://ai.google.dev/">Google AI Studio</a></td></tr></table>### 🛠️ Installation`bash# 1. Clone the repositorygit clone https://github.com/harshendram/Email-Master---An-AI-Based-CLI.gitcd Email-Master---An-AI-Based-CLI# 2. Install dependenciesnpm install# 3. Set up environment variablescp .env.sample .env# Edit .env file with your API keys# 4. Install globally (optional)npm install -g .`### 🔑 API Setup Guide#### **Step 1: Gmail API Setup**1. Go to [Google Cloud Console](https://console.cloud.google.com/)2. Create a new project or select existing one3. Enable the **Gmail API**4. Create **OAuth 2.0 Client IDs** credentials5. Select **Desktop Application** as application type6. Download the JSON file and save as `credentials.json` in project root#### **Step 2: Gemini AI API Setup**1. Visit [Google AI Studio](https://ai.google.dev/)2. Sign in with your Google account3. Click **Get API Key** button4. Copy the generated API key5. Add to your `.env` file: `GEMINI_API_KEY=your_api_key_here`### 🎯 First Run AuthorizationWhen you run your first command, EmailMaster will guide you through OAuth setup:`bash# Start with account setupemailmaster account-add --name "personal"# The CLI will:# 1. Open your browser automatically# 2. Show Google OAuth consent screen# 3. Ask for permission to access Gmail# 4. Provide an authorization code# 5. Paste the code back into CLI# 6. Display beautiful welcome message with ASCII art`## 🤝 ContributingWe welcome contributions! EmailMaster CLI is built with modern development practices and AI assistance.### 🔧 Development Setup`bash# Clone the repositorygit clone https://github.com/harshendram/Email-Master---An-AI-Based-CLI.gitcd Email-Master---An-AI-Based-CLI# Install dependenciesnpm install# Set up environmentcp .env.sample .env# Add your API keys to .env# Start developingnpm run dev`### 🚀 Tech Stack- **Runtime**: Node.js 16+- **CLI Framework**: Commander.js- **AI Integration**: Google Gemini AI- **Gmail API**: OAuth2 Authentication- **Styling**: Chalk.js with custom gradients- **File System**: fs-extra for robust operations## 📄 LicenseMIT © [harshendram](https://github.com/harshendram) - Built with ❤️ using modern JavaScript📜 **[Full License](LICENSE.md)** | 🔗 **[View on GitHub](https://github.com/harshendram/Email-Master---An-AI-Based-CLI/blob/main/LICENSE.md)**## 🙏 Acknowledgments- 🤖 **Amazon Q Developer** - AI-powered development assistance ([See full development journey](AMAZON_Q_DEVELOPMENT.md))- 🧠 **Google Gemini AI** - Intelligent email processing and analysis- 📧 **Gmail API** - Secure email access and management foundation- 🎨 **Instagram** - Color palette and design inspiration- 🔧 **Commander.js** - Powerful CLI framework and argument parsing- ⚡ **Node.js Community** - Amazing ecosystem and tools---<div align="center">### ⭐ Star this repository if EmailMaster CLI helped boost your productivity!<table><tr><td align="center"><strong>🚀 Get Started</strong><br><a href="#-quick-start">Quick Setup Guide</a></td><td align="center"><strong>📖 Commands</strong><br><a href="#-command-reference">Full Reference</a></td><td align="center"><strong>📸 Screenshots</strong><br><a href="#-screenshots">View Gallery</a></td><td align="center"><strong>🐛 Issues</strong><br><a href="https://github.com/harshendram/Email-Master---An-AI-Based-CLI/issues">Report Bug</a></td></tr></table>**Built for developers who value productivity, powered by AI that understands context**[![Made with Node.js](https://img.shields.io/badge/Made%20with-Node.js-brightgreen?style=flat-square&logo=node.js)](https://nodejs.org/)[![Powered by Gemini AI](https://img.shields.io/badge/Powered%20by-Gemini%20AI-blue?style=flat-square&logo=google)](https://ai.google.dev/)[![Gmail API](https://img.shields.io/badge/Uses-Gmail%20API-red?style=flat-square&logo=gmail)](https://developers.google.com/gmail/api)</div>
+# 📧 EmailMaster CLI
+
+<div align="center">
+<img src="assets/screenshots/banner.png" alt="EmailMaster CLI Banner" width="100%"/>
+
+<br/>
+
+![EmailMaster CLI](https://img.shields.io/badge/EmailMaster-CLI-blueviolet?style=for-the-badge&logo=gmail)
+![Version](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
+![AI Powered](https://img.shields.io/badge/AI-Powered-orange?style=for-the-badge&logo=openai)
+![Node.js](https://img.shields.io/badge/Node.js-16+-green?style=for-the-badge&logo=node.js)
+![Gmail API](https://img.shields.io/badge/Gmail-API-red?style=for-the-badge&logo=gmail)
+
+</div>
+
+## 🤖 AI-Powered Gmail Management Tool
+
+_Transform your inbox into an intelligent, organized workspace with cutting-edge AI technology_
+
+[✨ Features](#-features) • [📸 Screenshots](#-screenshots) • [🎥 Videos](#-videos) • [🚀 Quick Start](#-quick-start) • [📄 License](LICENSE.md) • [⭐ Star this repo](#)
+
+---
+
+## 🎯 Project Overview
+
+EmailMaster CLI is a next-generation command-line interface that revolutionizes Gmail management through AI integration. Built with modern Node.js technologies and powered by Google's Gemini AI, it transforms the traditional email workflow into an intelligent, automated experience.
+
+**Why EmailMaster CLI?**
+
+- 🧠 **AI-First Design**
+- ⚡ **Lightning Fast**
+- 🎨 **Beautiful Interface**
+- 🔧 **Developer Friendly**
+- 🚀 **Productivity Focused**
+- 📎 **Attachment Management**
+
+---
+
+## ✨ Features
+
+<table>
+<tr>
+<td width="50%">
+
+### 📥 Smart Email Management
+
+- Intelligent Fetching
+- AI-Powered Analysis
+- Batch Processing
+- Multi-Account Support
+- Persistent Identifiers
+
+### 🧠 AI-Powered Intelligence
+
+- Sentiment Detection
+- Priority Classification
+- Suggested Responses
+- Natural Language Search
+- Smart Summarization
+- Automated Responses
+
+</td>
+<td width="50%">
+
+### 🎯 Productivity Tools
+
+- Inbox Zero Automation
+- Calendar Event Extraction
+- Unsubscribe Management
+- Advanced Search
+
+### 📎 Attachment Vault
+
+- Smart Downloads
+- Auto Organization
+- Incremental Sync
+- Statistics Dashboard
+
+### 🎨 Modern Interface
+
+- Gradients & Styling
+- Tables with Progress
+- Responsive Terminal Design
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+
+### 🎨 Beautiful CLI Interface (1-9)
+
+<table>
+<tr>
+<td><img src="assets/screenshots/image1.png" style="border:1px solid #ddd; padding:4px" width="300"/></td>
+<td><img src="assets/screenshots/image2.png" style="border:1px solid #ddd; padding:4px" width="300"/></td>
+<td><img src="assets/screenshots/image3.png" style="border:1px solid #ddd; padding:4px" width="300"/></td>
+</tr>
+<tr>
+<td><img src="assets/screenshots/image4.png" style="border:1px solid #ddd; padding:4px" width="300"/></td>
+<td><img src="assets/screenshots/image5.png" style="border:1px solid #ddd; padding:4px" width="300"/></td>
+<td><img src="assets/screenshots/image6.png" style="border:1px solid #ddd; padding:4px" width="300"/></td>
+</tr>
+<tr>
+<td><img src="assets/screenshots/image7.png" style="border:1px solid #ddd; padding:4px" width="300"/></td>
+<td><img src="assets/screenshots/image8.png" style="border:1px solid #ddd; padding:4px" width="300"/></td>
+<td><img src="assets/screenshots/image9.png" style="border:1px solid #ddd; padding:4px" width="300"/></td>
+</tr>
+</table>
+
+---
+
+### 🎨 Advanced Features (10-18)
+
+<table>
+<tr>
+<td><img src="assets/screenshots/image10.png" style="border:1px solid #ddd; padding:4px" width="300"/></td>
+<td><img src="assets/screenshots/image11.png" style="border:1px solid #ddd; padding:4px" width="300"/></td>
+<td><img src="assets/screenshots/image12.png" style="border:1px solid #ddd; padding:4px" width="300"/></td>
+</tr>
+<tr>
+<td><img src="assets/screenshots/image13.png" style="border:1px solid #ddd; padding:4px" width="300"/></td>
+<td><img src="assets/screenshots/image14.png" style="border:1px solid #ddd; padding:4px" width="300"/></td>
+<td><img src="assets/screenshots/image15.png" style="border:1px solid #ddd; padding:4px" width="300"/></td>
+</tr>
+<tr>
+<td><img src="assets/screenshots/image16.png" style="border:1px solid #ddd; padding:4px" width="300"/></td>
+<td><img src="assets/screenshots/image17.png" style="border:1px solid #ddd; padding:4px" width="300"/></td>
+<td><img src="assets/screenshots/image18.png" style="border:1px solid #ddd; padding:4px" width="300"/></td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## 🎥 Videos
+
+<div align="center">
+
+### 🎬 See My Development Videos
+
+| Video                                            | Link                          |
+| ------------------------------------------------ | ----------------------------- |
+| Initial CLI Architecture & OAuth Flow            | [Watch Here](#your-link-here) |
+| Final AI-Powered Email Analysis & Dashboard Demo | [Watch Here](#your-link-here) |
+
+</div>
+
+---
+
+## 📋 Command Reference
+
+| Command                                    | Description                                   | Common Options                                                                                                           |
+| ------------------------------------------ | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **🔐 Authentication & Account Management** |                                               |                                                                                                                          |
+| `emailmaster accounts`                     | List all configured accounts                  |                                                                                                                          |
+| `emailmaster account-add`                  | Add Gmail account with OAuth2 authentication  | `--name <account>`                                                                                                       |
+| `emailmaster account-remove`               | Remove a configured account                   | `<name>`                                                                                                                 |
+| `emailmaster account-switch`               | Switch between configured accounts            | `<name>`                                                                                                                 |
+| **📧 Core Email Operations**               |                                               |                                                                                                                          |
+| `emailmaster fetch`                        | Retrieve emails from Gmail with smart caching | `-m, --max <number>`                                                                                                     |
+| `emailmaster list`                         | Show all emails with indices                  | `--limit <number>`                                                                                                       |
+| `emailmaster view [identifier]`            | Display email by number                       | `--id <uniqueId>`                                                                                                        |
+| `emailmaster analyze`                      | AI-powered email analysis and classification  | `-n, --notify`                                                                                                           |
+| `emailmaster dashboard`                    | Interactive inbox overview with insights      |                                                                                                                          |
+| `emailmaster search <query>`               | Search emails by query                        |                                                                                                                          |
+| **📤 Export & Productivity**               |                                               |                                                                                                                          |
+| `emailmaster export`                       | Export emails to JSON/Markdown                | `--format <format>`                                                                                                      |
+| `emailmaster calendar-export`              | Extract calendar events to ICS format         | `--email <number>`, `--file <path>`, `--all`                                                                             |
+| `emailmaster reply <email-number>`         | AI-powered email replies                      | `-a, --ai`, `-s, --send`, `-m, --manual`, `-d, --draft`, `--message <message>`                                           |
+| `emailmaster summary`                      | Generate daily email summary report           |                                                                                                                          |
+| **📎 Attachment Management**               |                                               |                                                                                                                          |
+| `emailmaster attachments`                  | View attachment commands                      |                                                                                                                          |
+| `emailmaster attachments-fetch`            | Download all attachments                      | `--days <number>`, `--output <path>`, `--types <types>`, `--max-size <size>`, `--no-organize-date`, `--no-organize-type` |
+| `emailmaster attachments-sync`             | Sync new attachments incrementally            | `-o, --output <path>`, `--types <types>`, `--max-size <size>`                                                            |
+| `emailmaster attachments-stats`            | View attachment statistics                    | `-o, --output <path>`                                                                                                    |
+| **🔧 Advanced Features**                   |                                               |                                                                                                                          |
+| `emailmaster sweep`                        | Bulk email management                         | `--type <type>`, `--older-than <days>`, `--auto-archive`, `--dry-run`                                                    |
+| `emailmaster unsubscribe`                  | Smart unsubscribe assistant                   | `--list`, `--send <number>`, `--all`                                                                                     |
+| `emailmaster config`                       | Configure EmailMaster settings                | `--batch-size <number>`, `--model <model>`, `--temp-dir <path>`, `--show`, `--list-models`                               |
+| `emailmaster help [command]`               | Display help information                      |                                                                                                                          |
+
+### Global Options
+
+- `--help, -h` - Show command help
+- `--version, -v` - Display version
+- `--verbose` - Detailed output
+- `--no-color` - Disable colored output
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+| Requirement   | Version            | Link                                                      |
+| ------------- | ------------------ | --------------------------------------------------------- |
+| **Node.js**   | v16.0.0 or higher  | [Download from nodejs.org](https://nodejs.org/)           |
+| **Gmail API** | OAuth2 Credentials | [Google Cloud Console](https://console.cloud.google.com/) |
+| **Gemini AI** | API Key            | [Google AI Studio](https://ai.google.dev/)                |
+
+---
+
+### 🛠️ Installation
+
+```bash
+# Clone
+git clone https://github.com/harshendram/Email-Master---An-AI-Based-CLI.git
+cd Email-Master---An-AI-Based-CLI
+# Install
+npm install
+# Env setup
+cp .env.sample .env
+# Add keys to .env
+npm install -g .
+```
+
+---
+
+### 🔑 API Setup
+
+#### Gmail API
+
+1. Google Cloud Console → Enable Gmail API → OAuth 2.0 Desktop Client
+2. Save `credentials.json` to root.
+
+#### Gemini AI API
+
+1. Google AI Studio → Get API Key.
+2. Add to `.env`
+   `GEMINI_API_KEY=your_api_key_here`
+
+---
+
+## 🤝 Contributing
+
+```bash
+git clone https://github.com/harshendram/Email-Master---An-AI-Based-CLI.git
+cd Email-Master---An-AI-Based-CLI
+npm install
+cp .env.sample .env
+npm run dev
+```
+
+---
+
+## 🚀 Tech Stack
+
+- Node.js 16+
+- Commander.js
+- Google Gemini AI
+- Gmail API OAuth2
+- Chalk.js (Gradients)
+- fs-extra
+
+---
+
+## 📄 License
+
+MIT © [harshendram](https://github.com/harshendram)
+📜 [License](LICENSE.md) • 🔗 [GitHub Repo](https://github.com/harshendram/Email-Master---An-AI-Based-CLI/blob/main/LICENSE.md)
+
+---
+
+## 🙏 Acknowledgments
+
+- 🤖 **Amazon Q Developer** ([See Journey](AMAZON_Q_DEVELOPMENT.md))
+- 🧠 **Google Gemini AI**
+- 📧 **Gmail API**
+- 🎨 **Instagram Colors**
+- 🔧 **Commander.js**
+- ⚡ **Node.js Community**
+
+---
+
+<div align="center">
+
+### ⭐ Star this repository if EmailMaster CLI helped you!
+
+| 🚀 Get Started                     | 📖 Commands                           | 📸 Screenshots                | 🐛 Issues                                                                          |
+| ---------------------------------- | ------------------------------------- | ----------------------------- | ---------------------------------------------------------------------------------- |
+| [Quick Setup Guide](#-quick-start) | [Full Reference](#-command-reference) | [View Gallery](#-screenshots) | [Report Bug](https://github.com/harshendram/Email-Master---An-AI-Based-CLI/issues) |
+
+[![Node.js](https://img.shields.io/badge/Made%20with-Node.js-brightgreen?style=flat-square&logo=node.js)](https://nodejs.org/)
+[![Gemini AI](https://img.shields.io/badge/Powered%20by-Gemini%20AI-blue?style=flat-square&logo=google)](https://ai.google.dev/)
+[![Gmail API](https://img.shields.io/badge/Uses-Gmail%20API-red?style=flat-square&logo=gmail)](https://developers.google.com/gmail/api)
+
+</div>

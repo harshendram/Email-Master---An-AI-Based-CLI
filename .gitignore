@@ -29,7 +29,8 @@ temp/*
 
 # Generated Content
 # =================
-reports/
+reports/*
+!reports/.gitkeep
 attachments/
 test-attachments/
 
@@ -47,8 +48,6 @@ api-keys*.json
 
 # User Data & Reports (Privacy Protection)
 # =========================================
-reports/
-temp/
 cache/
 *.cache
 user-data/
@@ -141,7 +140,6 @@ public
 
 # Temporary folders
 tmp/
-temp/
 
 # Logs
 logs
@@ -159,7 +157,6 @@ logs
 # ===============================================
 
 # Authentication tokens (SECURITY CRITICAL)
-tokens/
 credentials.json
 token.json
 *.token.json
@@ -167,35 +164,6 @@ token.json
 # User accounts and configurations
 accounts.json
 config.json
-
-# Temporary email data
-temp/
-cache/
-*.cache
-
-# Downloaded attachments
-attachments/
-downloads/
-vault/
-
-# Generated reports and exports
-reports/
-exports/
-output/
-
-# Test results and temporary files
-test-results.json
-*.test.json
-test-output/
-
-# Email data files
-emails.json
-analyzed_emails.json
-*.emails.json
-
-# AI processing cache
-ai-cache/
-*.ai-cache
 
 # User-specific shell scripts
 setup-*.sh
