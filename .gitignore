@@ -1,0 +1,300 @@
+# ===============================================
+# EmailMaster CLI - Professional .gitignore
+# ===============================================
+
+# Security & Authentication (CRITICAL - DO NOT COMMIT)
+# =====================================================
+credentials.json
+accounts.json
+tokens/*
+!tokens/.gitkeep
+*.token.json
+config.json
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OAuth2 & API Keys
+client_secret*.json
+service-account*.json
+
+# Temporary and Cache Files
+# =========================
+temp/*
+!temp/.gitkeep
+*.tmp
+*.temp
+
+# Generated Content
+# =================
+reports/
+attachments/
+test-attachments/
+
+# Test Files and Documentation
+# =============================
+test/
+tests/
+*.test.js
+*test*.js
+*TEST*.md
+*FIXES*.md
+*STATUS*.md
+oauth-config*.json
+api-keys*.json
+
+# User Data & Reports (Privacy Protection)
+# =========================================
+reports/
+temp/
+cache/
+*.cache
+user-data/
+email-exports/
+attachment-vault/
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.local
+.env.production
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Logs
+logs
+*.log
+
+# Runtime configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===============================================
+# EmailMaster CLI Specific
+# ===============================================
+
+# Authentication tokens (SECURITY CRITICAL)
+tokens/
+credentials.json
+token.json
+*.token.json
+
+# User accounts and configurations
+accounts.json
+config.json
+
+# Temporary email data
+temp/
+cache/
+*.cache
+
+# Downloaded attachments
+attachments/
+downloads/
+vault/
+
+# Generated reports and exports
+reports/
+exports/
+output/
+
+# Test results and temporary files
+test-results.json
+*.test.json
+test-output/
+
+# Email data files
+emails.json
+analyzed_emails.json
+*.emails.json
+
+# AI processing cache
+ai-cache/
+*.ai-cache
+
+# User-specific shell scripts
+setup-*.sh
+install-*.sh
+*.user.sh
+
+# Backup files
+*.backup
+*.bak
+backup/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows specific
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux specific
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===============================================
+# Development and Build
+# ===============================================
+
+# Build outputs
+build/
+dist/
+lib/
+out/
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Local configuration
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+__tests__/
+*.test.js
+*.spec.js
+coverage/
+.jest/
+
+# Linting
+.eslintcache
+.stylelintcache
+
+# Documentation build
+docs/build/
+docs/dist/
+
+# ===============================================
+# Security & Privacy
+# ===============================================
+
+# Never commit these files
+*.key
+*.pem
+*.p12
+*.pfx
+*.cer
+*.crt
+*.der
+secrets/
+private/
+confidential/
+
+# Gmail API credentials
+client_secret*.json
+oauth2-credentials.json
+service-account*.json
+
+# Email content (privacy protection)
+email-content/
+personal-emails/
+private-data/
