@@ -143,12 +143,9 @@ EmailMaster CLI is a next-generation command-line interface that revolutionizes 
 
 <div align="center">
 
-### 🎬 See My Development Videos
+### 🎬 See My Development Video
 
-| Video                                            | Link                          |
-| ------------------------------------------------ | ----------------------------- |
-| Initial CLI Architecture & OAuth Flow            | [Watch Here](#your-link-here) |
-| Final AI-Powered Email Analysis & Dashboard Demo | [Watch Here](#your-link-here) |
+[![Watch the Video](https://img.youtube.com/vi/MUkL4qvLiYw/hqdefault.jpg)](https://youtu.be/MUkL4qvLiYw)
 
 </div>
 
